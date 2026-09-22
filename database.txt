@@ -1,0 +1,11 @@
+create database filestorage;
+use filestorage;
+
+create table register(username varchar(50) primary key,
+password varchar(50),
+contact_no varchar(20),
+email varchar(70), 
+address varchar(80));
+
+create table files(username varchar(50), filename varchar(50), sharing_user varchar(350), upload_date varchar(30), filekeys varchar(300));
+
